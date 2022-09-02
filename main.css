@@ -4,6 +4,7 @@ body, html {
 }
 
 html {
+    /* כאן קבעתי את הפונט ל10 כדי שיהיה לי קל לחשב את הגודל היחסי אח"כ - חשוב לכל דף אינטרנט */
     font-size: 10px;
 }
 
@@ -32,20 +33,56 @@ html {
     border: 1px solid rebeccapurple;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .list_boxes {
     background: salmon;
     width: 50rem;
     min-height: 75rem;
-    
+
 }
+
+.list_boxes .box {
+    border: 1px dashed brown;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 1.1rem;
+    font-size: 1.6rem;
+}
+
+.booking_box {
+    border: lightslategray 1px solid;
+    color: #DE33C4;
+    background: #4DDE33;
+    width: 28rem;
+    height: 35rem;
+    font-size: 4rem;
+    position: sticky;
+    top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.other_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: peachpuff;
+    background: firebrick;
+    font-size: 2.3rem;
+    height: 40rem;
+    padding: 2rem;
+}
+
 footer {
     color: bisque;
-    background-color: darkred;
+    background-color: rgba(228, 49, 147, 0.669);
     height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 2.8rem;
 }
