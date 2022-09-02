@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.top-bar {
+    border: 1px blue solid;
+    height: 7rem;
+    background: azure;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 3rem;
+}
+
+.hero {
+    border: 2px solid rosybrown;
+    height: 51rem;
+    background: cyan;
+    background-image: url(https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    background-position: cover;
+}
+
+.main {
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+}
+
+.list_boxes {
+    background: salmon;
+    width: 50rem;
+    min-height: 75rem;
+    
+}
+footer {
+    color: bisque;
+    background-color: darkred;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
